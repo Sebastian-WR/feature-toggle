@@ -1,4 +1,3 @@
-
 export const getReducer = (state, action) => {
    return {
       ...state,
@@ -7,8 +6,8 @@ export const getReducer = (state, action) => {
 }
 
 export const setReducer = (state, action) => {
-    return {
-        ...state, user: state.user
-    }
+   return {
+      ...state,
+      user: state.user,
+   }
 }
-

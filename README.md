@@ -1,72 +1,33 @@
 npm i husk for at installere dependencies fra package.json
 
-# Getting Started with Create React App
+# IBM Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jeg har valgt feature toggle opgaven og har valgt at løse den full-stack
+https://github.com/ibmcicdk/CIC-HIRING-TEST/tree/master/FeatureToggle 
 
-## Available Scripts
+### `Start programmet`
 
-In the project directory, you can run:
+- Først clone repository - https://github.com/Sebastian-WR/feature-toggle.git 
+- Efterfølgende skal der køres "npm i" i terminalen
+- Dernæst skal scriptet start køres "npm run start"
+- Så starter programmet og det kan tilgås på http://localhost:3000
+### Link til den hostede udgave
+Den er hosted med Heroku, så den sover efter 30 min, derfor kan det tage et øjeblik første gang den starter.
+https://ibm-feature-toggle.herokuapp.com/ 
 
-### `npm start`
+### Programmets user stories
+Jeg nåede desværre ikke så langt med user stories, da jeg brugte en del spildtid på at få hostet databasen som ikke lykkedes, 
+blandt andre problemer undervejs, med login og dertil spildte jeg for meget tid på at sætte "ligegyldige" komponenter op. Det kan jeg fortælle mere om til interviewet.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Valg af sprog og frameworks/libraries
+Jeg har valgt at bruge Node.js environment som udviklingsmiljø, da jeg har en del erfaring med dette go express API'er og
+syntes det virker fantastisk at kode JavaScript/TypeScript full stack og så er det bare nemmere at det er samme sprog hele vejen igennem. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Dertil har jeg valgt React som frontend framework, hvilket jeg har en del mindre erfaring med og det er også her en del af mine problemer har lagt med state bl.a. 
+Dertil syntes jeg rigtig godt om React og har nydt at arbejde med det og vil fortsætte med at forbedre mine evner i React, samt lærer Angular. I retrospect skulle jeg nok valgt en anden måde at arbejde med fronenden på, også da jeg har arbejdet i en ældre React version og der var nye features og ændringer som jeg hurtigt skulle sætte mig ind i for at komme videre.
 
-### `npm test`
+I slutspurten forsøgte jeg at redde mine state problemer med Redux, men havde ikke tid nok og det er ikke færdigt. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Jeg valgte at Hoste på Heroku, da dette er super nemt og kan gøres med få kommandoer i terminalen.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

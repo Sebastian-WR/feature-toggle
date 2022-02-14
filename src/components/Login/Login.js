@@ -11,11 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //      user: state.user,
 //    }
 //  }
- 
+
 //  const mapDispatchToProps = dispatch => {
 //    return {
 //      setUser: () => dispatch(setUser()),
- 
+
 //      getUser: () => dispatch(getUser()),
 //    }
 //  }
@@ -106,16 +106,17 @@ const Login = ({ setToken }, props) => {
                      />
                   </Form.Group>
 
-                  <Form.Group className="mb-3" controlId="formBasicPassword">
+                  <Form.Group
+                     className="mb-3"
+                     controlId="formBasicPassword"
+                     style={{ paddingBottom: '15px' }}
+                  >
                      <Form.Label>Password</Form.Label>
                      <Form.Control
                         type="password"
                         placeholder="Password"
                         onChange={(e) => setPassword(e.target.value)}
                      />
-                  </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                     <Form.Check type="checkbox" label="Check me out" />
                   </Form.Group>
                   <Row>
                      <Button variant="primary" type="submit">
@@ -147,7 +148,6 @@ const Login = ({ setToken }, props) => {
                            onChange={(e) => setUserNameReg(e.target.value)}
                         />
                      </Form.Group>
-
                      <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control
@@ -155,9 +155,6 @@ const Login = ({ setToken }, props) => {
                            placeholder="Password"
                            onChange={(e) => setPasswordReg(e.target.value)}
                         />
-                     </Form.Group>
-                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
                      </Form.Group>
                      <Button variant="primary" type="submit">
                         Register
